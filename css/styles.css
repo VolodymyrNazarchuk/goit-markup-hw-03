@@ -96,7 +96,7 @@ img{
 }
 
 .header-menu-item {
-
+    padding: 24px 0
 }
 
 
@@ -247,11 +247,14 @@ img{
      background-color:#FFFFFF;
      width: calc((100% - 3 * 24px) / 4);
      padding-bottom: 32px;
+     border-radius: 0px 0px 4px 4px;
 }
 
 .team-image {
-    margin-bottom: 32px;
-    
+
+}
+.team-discription{
+    padding: 32px 0;
 }
 
 .team-subtitle {
