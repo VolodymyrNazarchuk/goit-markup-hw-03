@@ -55,9 +55,14 @@ img{
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
+.header-wrap{
+    display: flex;
+    align-items:center;
+}
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -68,13 +73,16 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
     display: inline-block;
+    margin-right: 76px
       
 }
 
 .logo .accent{
     color: #2e2f42;
+}
+.logo-header{
+    margin-right: 76px;
 }
 
 .header-wrap{
@@ -317,6 +325,7 @@ img{
 
 .logo.logo-footer{
     margin-bottom: 16px;
+    margin-right: 0;
 }
 
 .footer-text {
